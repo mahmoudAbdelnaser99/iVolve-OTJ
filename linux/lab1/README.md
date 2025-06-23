@@ -13,7 +13,7 @@ Automate MySQL database backup using a shell script and schedule it to run daily
 ---
 
 ```bash
-head -n 10 /home/ubuntu/mysql_backups/MySQL_backup_*.sql
+head -n 10 /root/linux/lab1/mysql_backups/MySQL_backup_*.sql
 ```
 
 ### Check Cron Jobs:
@@ -27,7 +27,7 @@ crontab -l
 ### Inspect Backup File:
 
 ```bash
-head -n 10 /root/linux/mysql_backups/MySQL_backup_*.sql
+head -n 10 /root/linux/lab1/mysql_backups/MySQL_backup_*.sql
 ```
 
 Expected output (example):
