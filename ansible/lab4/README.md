@@ -12,9 +12,9 @@ Set up Ansible on a control node and configure SSH access to the managed node.
    sudo apt update
    sudo apt install -y ansible
    ```
-![alt text](image-1.png)
+![alt text](image.png)
 2. **Create inventory file**
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 3. **Generate SSH key**
 
@@ -23,5 +23,5 @@ Set up Ansible on a control node and configure SSH access to the managed node.
 ssh-copy-id mahmoud@192.168.101.144
 ```
 5. **Test with ad-hoc command**
-![alt text](image.png)
+![alt text](image-2.png)
 
