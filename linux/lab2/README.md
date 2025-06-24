@@ -31,4 +31,8 @@ lvextend -l +100%FREE /dev/myvg/mylv
 resize2fs /dev/myvg/mylv
 df -h /mnt/mydata
 ```
+![alt text](1.PNG)
 
+![alt text](2.PNG)
+
+![alt text](3.PNG)

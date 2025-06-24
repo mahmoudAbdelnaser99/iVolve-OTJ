@@ -14,6 +14,7 @@ Set up Ansible on a control node and configure SSH access to the managed node.
    ```
 ![alt text](image.png)
 2. **Create inventory file**
+
 ![alt text](image-3.png)
 
 3. **Generate SSH key**
