@@ -3,14 +3,14 @@
 This lab demonstrates how to configure Ansible to dynamically discover and manage AWS EC2 instances using the `aws_ec2` plugin, and automatically provision them with Docker and Jenkins.
 
 ---
-
+```
 ### Project Structure
 ├── ansible.cfg
 ├── aws_ec2.yml
 ├── playbook.yml
 ├── nattestkey.pem
 └── README.md
-
+```
 ###  Lab Objectives
 
 - Create EC2 instance with tag `Name=ivolve`
