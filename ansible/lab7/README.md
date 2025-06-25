@@ -1,4 +1,4 @@
-# Lab 9: Write an Ansible playbook to install MySQL, create ivovle database, create user with all privileges on ivolve DB. Use Ansible Vault to encrypt sensitive information such as database user password, and incorporate the encrypted data into an Ansible playbook.
+# Lab 7: Write an Ansible playbook to install MySQL, create ivovle database, create user with all privileges on ivolve DB. Use Ansible Vault to encrypt sensitive information such as database user password, and incorporate the encrypted data into an Ansible playbook.
 ## Overview
 ### This lab focuses on using Ansible to:
 1- Install MySQL.
@@ -98,4 +98,6 @@ ansible-playbook playbook.yml --ask-vault-pass
 mysql -u user -p
 ```
 ![alt text](image.png)
+
+![alt text](image-1.png)
 
