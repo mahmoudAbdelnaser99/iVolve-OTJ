@@ -21,13 +21,11 @@ build1/
 - Git (to clone repo)
 
 ---
-
 ## 🚀 Steps to Run the Lab
-
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Ibrahim-Adel15/build1.git
+git clone https://github.com/mahmoudAbdelnaser99/build1.git
 cd build1
 ```
 ### 2. Install Gradle
