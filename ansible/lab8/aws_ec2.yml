@@ -2,10 +2,6 @@ plugin: aws_ec2
 regions:
   - us-east-1
 filters:
-  "tag:Name": ivolve
+  tag:Name: ivolve
   instance-state-name: running
-hostnames:
-  - 34.238.164.106
-keyed_groups:
-  - key: tags.Name
-    prefix: tag
+host_key_checks: False

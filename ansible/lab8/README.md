@@ -49,6 +49,7 @@ aws configure
 Key: Name
 Value: ivolve
 ```
+![alt text](image-5.png)
 #### 3. Install Required Tools on Local Machine
 ```bash
 sudo apt update
@@ -64,18 +65,18 @@ ansible-galaxy collection install amazon.aws --force
 ```bash
 ansible-inventory --graph
 ```
-![alt text](image.png)
+![alt text](image-6.png)
+
 
 #### 7. Create the Ansible Playbook playbook.yml
 
 #### 8. Run the Playbook
-![alt text](image-1.png)
+![alt text](image.png)
 
 #### 9. ssh ec2
 ![alt text](image-2.png)
 
 #### 10. access jenkins from internet
-![alt text](image-3.png)
-
+![alt text](image-1.png)
 
 ### Author Mahmoud Abdelnaser Elsayed
