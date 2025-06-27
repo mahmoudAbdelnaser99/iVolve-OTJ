@@ -1,0 +1,7 @@
+lugin: aws_ec2
+regions:
+  - us-east-1
+filters:
+  tag:Name: ivolve
+  instance-state-name: running
+host_key_checks: False
