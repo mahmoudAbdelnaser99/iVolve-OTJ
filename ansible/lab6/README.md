@@ -13,7 +13,7 @@ The goal is to practice modular Ansible playbooks using **roles**, with each too
 
 ## 📁 Project Structure
 
-
+```
 lab6/
 ├── inventory.ini
 ├── playbook.yml
@@ -24,6 +24,7 @@ lab6/
 │ └── tasks/main.yml
 └── jenkins/
 └── tasks/main.yml
+```
 
 #### 1. Create Roles
 ```bash
