@@ -29,11 +29,6 @@ services:
       - "3000:3000"
     depends_on:
       - db
-    environment:
-      DB_HOST: ${DB_HOST}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_NAME: ${DB_NAME}
 
   db:
     image: postgres:15-alpine
@@ -44,19 +39,18 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - mynet
 
 volumes:
-  pgdata:
+  postgres_data:
+networks:
+  mynet:
 ```
 
 ## 3. Environment Variables .env
 ```
-DB_HOST=db
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=postgres
-
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 POSTGRES_DB=postgres
@@ -65,12 +59,9 @@ POSTGRES_DB=postgres
 ```
 docker-compose up --build
 ```
-![alt text](images/image-1.png)
-![alt text](images/Untitled.png)
-
 ## 5. access Application on port 3000
 
-![alt text](images/image.png)
+![alt text](image.png)
 
 
 
